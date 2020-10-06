@@ -12,7 +12,9 @@ async function start() {
   await getBiggerOrSmallerNameCities(true);
   //Qual a saída do método que imprime a cidade de menor nome de cada estado?
   await getBiggerOrSmallerNameCities(false);
+  //Qual a saída do método que imprime a cidade de maior nome entre todos os estados?
   await getBiggerOrSmallerCityName(true);
+  //Qual a saída do método que imprime a cidade de menor nome entre todos os estados?
   await getBiggerOrSmallerCityName(false);
 }
 
